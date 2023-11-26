@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="d5188c9d-fb9e-40cf-a443-42d70fdbf334" solutionId="d5188c9d-fb9e-40cf-a443-42d70fdbf334" resetWebServer="false" name="MANSoftDev.SharePoint.SPCopyCmdlet" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <projectItems>
+    <projectItemReference itemId="2ae2fc09-a8e8-4ea8-8032-d0b3f8321727" />
+  </projectItems>
+</package>

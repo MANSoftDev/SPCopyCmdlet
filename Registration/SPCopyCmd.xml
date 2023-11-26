@@ -1,0 +1,17 @@
+﻿<ps:Config xmlns:ps="urn:Microsoft.SharePoint.PowerShell"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xsi:schemaLocation="urn:Microsoft.SharePoint.PowerShell  SPCmdletSchema.xsd">
+
+  <ps:Assembly Name="$SharePoint.Project.AssemblyFullName$">
+    <ps:Cmdlet>
+      <ps:VerbName>Copy-SPWeb</ps:VerbName>
+      <ps:ClassName>MANSoftDev.SharePoint.PowerShell.SPCopyCmd</ps:ClassName>
+      <ps:HelpFile>MANSoftDev.SharePoint.PowerShell.dll-help.xml</ps:HelpFile>
+    </ps:Cmdlet>
+    <ps:Cmdlet>
+      <ps:VerbName>Move-SPWeb</ps:VerbName>
+      <ps:ClassName>MANSoftDev.SharePoint.PowerShell.SPMoveCmd</ps:ClassName>
+      <ps:HelpFile>MANSoftDev.SharePoint.PowerShell.dll-help.xml</ps:HelpFile>
+    </ps:Cmdlet>
+  </ps:Assembly> 
+</ps:Config>
